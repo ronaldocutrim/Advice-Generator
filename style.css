@@ -19,9 +19,15 @@ body {
 }
 
 .advice_box {
+  position: relative;
+  width: 620px;
+  height: 250px;
   background-color: #313b47;
-  padding: 32px;
+  padding: 44px 32px;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .advice_title {
@@ -31,11 +37,23 @@ body {
 
 .advice_description {
   margin-top: 24px;
-  max-width: 360px;
   text-align: center;
 }
 
-header {
-  padding
-  background-color: #f2f2;
+.advice_divider {
+  margin-top: 24px;
+  width: 100%;
+}
+
+.generate_advice_button {
+  cursor: pointer;
+  border: 0;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  bottom: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: #53ffa9 url(./assets/icon-dice.svg) no-repeat center;
 }
