@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+}
+
+.main_background {
+  background-color: #1f2732;
+  width: 100vw;
+  height: 100vh;
+  color: #cee2e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.advice_box {
+  background-color: #313b47;
+  padding: 32px;
+  border-radius: 8px;
+}
+
+.advice_title {
+  text-align: center;
+  color: #53ffa9;
+}
+
+.advice_description {
+  margin-top: 24px;
+  max-width: 360px;
+  text-align: center;
+}
+
+header {
+  padding
+  background-color: #f2f2;
+}
